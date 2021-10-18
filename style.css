@@ -1,0 +1,27 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  background-color: rgb(237, 237, 248);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Butterfly+Kids|Roboto");
+.textarea {
+  background-color: whitesmoke;
+  width: 60em;
+  height: 15em;
+  border: 1px solid #cccccc;
+  padding: 0.5em;
+  font-family: Tahoma, sans-serif;
+}
+
+textarea:focus {
+  background: #ffc;
+}
+
+.buttons {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem;
+  gap: 2rem;
+}
