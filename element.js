@@ -16,7 +16,3 @@ export function createElement(tagName, props, childElements) {
   // Return the element
   return element;
 }
-
-const p = document.createElement("moodButton");
-btn.innerHTML = "Add Memos";
-document.body.appendChild(btn);

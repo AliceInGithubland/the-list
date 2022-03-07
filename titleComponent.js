@@ -8,6 +8,8 @@ export function createTitleComponent() {
   return createTitleComponent;
 }
 
+console.log("Hello World");
+
 h1{
     font-family: 'Roboto', sans-serif;
   }
